@@ -20,8 +20,8 @@ CREATE TABLE IF NOT EXISTS characters(
 
 CREATE TABLE IF NOT EXISTS monsters(
     id      INT             NOT NULL,
-    name    VARCHAR(255)         NOT NULL,
+    name    VARCHAR(255)    NOT NULL,
     health  INT             NOT NULL,
-    intitmod  INT           NOT NULL,
+    initmod  INT           NOT NULL,
     PRIMARY KEY(id)
 );
